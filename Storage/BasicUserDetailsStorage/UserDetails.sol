@@ -16,7 +16,7 @@ contract UserDetails{
     }
 
 
-    function addUser(address _walletAddress, string memory _firstName, string memory _lastName, string memory _emailAddress, uint256 _age, uint256 _favoriteNumber) public{
+    function addUser(address _walletAddress, string memory _firstName, string memory _lastName, string memory _emailAddress, uint256 _age, uint256 _favoriteNumber) public virtual{
         user.push(User(_walletAddress,_firstName,_lastName,_emailAddress,_age,_favoriteNumber));
     }
 
