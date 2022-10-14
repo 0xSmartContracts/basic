@@ -19,7 +19,7 @@ contract StudentDetails{
     }
 
 
-    function addStudent(address _walletAddress, uint256 _registerNumber, string memory _firstName, string memory _lastName, string memory _schoolName, string memory _grade, string memory _emailAddress, string memory _bloodGroup,uint256 _age) public{
+    function addStudent(address _walletAddress, uint256 _registerNumber, string memory _firstName, string memory _lastName, string memory _schoolName, string memory _grade, string memory _emailAddress, string memory _bloodGroup,uint256 _age) public virtual{
         student.push(Student(_walletAddress,_registerNumber,_firstName,_lastName,_schoolName,_grade,_emailAddress,_bloodGroup,_age));
     }
     
