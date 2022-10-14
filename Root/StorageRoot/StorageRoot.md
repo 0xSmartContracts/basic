@@ -7,5 +7,6 @@
 
 ### Contracts List:
 * UserDetails - [Code](https://github.com/0xSmartContracts/basic/blob/main/Storage/BasicUserDetailsStorage/UserDetails.sol) | [Details](https://github.com/0xSmartContracts/basic/blob/main/Storage/BasicUserDetailsStorage/UserDetails.md)
+* StudentDetails - [Code](https://github.com/0xSmartContracts/basic/blob/main/Storage/BasicStudentDetailsStorage/StudentDetails.sol) | [Details](https://github.com/0xSmartContracts/basic/blob/main/Storage/BasicStudentDetailsStorage/StudentDetails.md)
 
 **Note**: More basic storage contracts will be added soon.
